@@ -12,16 +12,8 @@ This bot is being used as a backend for <a href="https://github.com/shiv19/node-
 ## Run the Example
 
 ```bash
-# Build the JavaScript sources from the CoffeeScript first. Run these from
-# the root of the rivescript-js repo.
-$ npm install
-$ grunt
-
-# Then, from the eg/json-server directory, install the JSON server's
-# dependencies (expressjs, etc.)
 $ npm install
 
-# And run the server.
 $ node server.js
 ```
 
