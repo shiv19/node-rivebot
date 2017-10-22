@@ -1,7 +1,6 @@
-# JSON Server
+# node-rivebot
 
-This example demonstrates embedding RiveScript in a Nodejs web server,
-accessible via a JSON endpoint.
+Example Bot made using RiveScript.
 
 This uses Expressjs to create a super simple web server that accepts JSON POST
 requests to `/reply` and responds with JSON output.
@@ -37,10 +36,10 @@ command that you can paste into a terminal window).
 
 ```json
 {
-	"username": "Soandso",
+	"username": "Shiva",
 	"message": "Hello, bot!",
 	"vars": {
-		"name": "Soandso",
+		"name": "Shiva",
 		"age": "10"
 	}
 }
@@ -57,7 +56,7 @@ send along user variables.
 	"reply": "Hello human!",
 	"vars": {
 		"topic": "random",
-		"name": "Soandso",
+		"name": "Shiva",
 		"age": "10",
 		"__history__": {},
 		"__lastmatch__": "hello bot"
@@ -80,7 +79,7 @@ In case of error, a `message` key will contain the error message.
 ```bash
 curl -i \
    -H "Content-Type: application/json" \
-   -X POST -d '{"username":"soandso","message":"hello bot"}' \
+   -X POST -d '{"username":"Shiva","message":"hello bot"}' \
    http://localhost:2001/reply
 HTTP/1.1 200 OK
 X-Powered-By: Express
