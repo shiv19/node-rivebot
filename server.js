@@ -1,10 +1,3 @@
-// RiveScript-JS
-//
-// Node.JS Web Server for RiveScript
-//
-// Run this and then communicate with the bot using `curl` or your favorite
-// REST client. Example:
-//
 // curl -i \
 //    -H "Content-Type: application/json" \
 //    -X POST -d '{"username":"soandso","message":"hello bot"}' \
