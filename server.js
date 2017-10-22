@@ -14,8 +14,7 @@ var express = require("express"),
 bodyParser = require("body-parser"),
 RiveScript = require("rivescript");
 
-var port = process.env.PORT || 8080,
-ip   = process.env.IP  || '0.0.0.0';
+var port = process.env.PORT || 8080;
 
 // Create the bot.
 var bot = new RiveScript();
@@ -39,8 +38,8 @@ app.get("/", showUsage);
 app.get("*", showUsage);
 
 // Start listening.
-app.listen(port, ip, function() {
-	console.log('Server running on http://%s:%s', ip, port);
+app.listen(port, function() {
+	console.log('Server running');
 });
 }
 
