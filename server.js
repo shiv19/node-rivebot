@@ -14,8 +14,8 @@ var express = require("express"),
 bodyParser = require("body-parser"),
 RiveScript = require("rivescript");
 
-var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
-ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
+var port = process.env.PORT || 8080,
+ip   = process.env.IP  || '0.0.0.0';
 
 // Create the bot.
 var bot = new RiveScript();
