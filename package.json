@@ -10,7 +10,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "~1.14.2",
     "express": "~4.13.3",
-    "body-parser": "~1.14.2"
+    "rivescript": "^1.17.2"
   }
 }
