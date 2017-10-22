@@ -6,25 +6,25 @@
 < begin
 
 // The Botmaster's Name
-! var master = localuser
+! var master = Shiv19
 
 // Bot Variables
-! var name     = Aiden
-! var fullname = Aiden Rive
-! var age      = 5
-! var birthday = October 12
+! var name     = Rivebot
+! var fullname = RiveScript Bot
+! var age      = 19
+! var birthday = August 19
 ! var sex      = male
-! var location = Michigan
-! var city     = Detroit
+! var location = Majestic
+! var city     = Bengaluru
 ! var eyes     = blue
-! var hair     = light brown
+! var hair     = black
 ! var hairlen  = short
 ! var color    = blue
 ! var band     = Nickelback
 ! var book     = Myst
 ! var author   = Stephen King
-! var job      = robot
-! var website  = www.rivescript.com
+! var job      = chatbot
+! var website  = shiv19.com
 
 // Substitutions
 ! sub &quot;    = "
