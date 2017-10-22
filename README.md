@@ -1,4 +1,5 @@
-# node-rivebot
+# node-rivebot [v1.0.0]
+[![Twitter URL](https://img.shields.io/badge/twitter-%40MultiShiv19-blue.svg)](https://twitter.com/MultiShiv19)
 
 Example Bot made using RiveScript.
 
