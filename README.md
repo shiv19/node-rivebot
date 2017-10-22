@@ -7,7 +7,7 @@ This uses Expressjs to create a super simple web server that accepts JSON POST
 requests to `/reply` and responds with JSON output.
 
 ## Live usage
-This bot is being used as a backend for <a href="https://github.com/shiv19/node-rivebot" target="_blank">this</a> NativeScript App
+This bot is being used as a backend for <a href="https://github.com/shiv19/nativescript-rivescript-demo" target="_blank">this</a> NativeScript App
 
 ## Run the Example
 
